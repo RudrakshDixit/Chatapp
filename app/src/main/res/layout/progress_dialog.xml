@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/progressdialoglayout">
+    <ProgressBar
+            android:layout_marginTop="50dp"
+            android:layout_width="60dp" android:layout_height="60dp"
+                 android:id="@+id/progressbarcircle"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="16dp"
+
+    />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_toRightOf="@+id/progressbarcircle"
+              android:layout_centerInParent="true"
+              android:layout_marginLeft="16dp"
+              android:textSize="20sp"
+              android:textColor="#000"
+              android:layout_marginRight="16dp"
+
+
+              android:id="@+id/textviewdialog"/>
+
+</RelativeLayout>

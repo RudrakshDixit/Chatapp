@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "155508886591",
+    "firebase_url": "https://chat-app-4db14.firebaseio.com",
+    "project_id": "chat-app-4db14",
+    "storage_bucket": "chat-app-4db14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155508886591:android:49540ad267d7b22e",
+        "android_client_info": {
+          "package_name": "com.rudraksh.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155508886591-von64ne3fqtpu73ev4d3vqb4rqicqcsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNMbv3n-V96t1G1ELEWquDCeqw7_voxIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155508886591-von64ne3fqtpu73ev4d3vqb4rqicqcsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rel"
+        android:background="@drawable/register_login_page_background"
+>
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="150dp"
+android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+
+    >
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/mainimageround"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#fff"
+        />
+
+        <ImageView android:layout_width="150dp"
+                   android:layout_height="150dp"
+            android:background="@drawable/circular_image"
+                     android:id="@+id/circularimagedp"
+
+
+        >
+
+
+        </ImageView>
+        <ImageButton android:layout_width="60dp" android:layout_height="60dp"
+                     android:background="@drawable/circularimagebutton"
+                     android:layout_marginStart="90dp"
+                     android:id="@+id/circularimageselect"
+                     android:layout_alignParentBottom="true"
+                     android:src="@drawable/cam"
+
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/rel2"
+
+    >
+
+
+
+
+        <EditText
+                android:height="32dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+
+                android:id="@+id/Registration_username"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username "
+                android:maxLength="30"
+                android:maxLines="1"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:textColor="#000"
+                android:textColorHint="#a2a2a2"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:background="@drawable/edittexts_bg"
+        />
+
+
+
+            <EditText
+                    android:textColor="#000"
+                    android:textColorHint="#a2a2a2"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:id="@+id/Registration_email"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email "
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:layout_below="@id/Registration_username"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:background="@drawable/edittexts_bg"
+            />
+
+
+
+            <EditText
+                    android:textColor="#000"
+                    android:textColorHint="#a2a2a2"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:id="@+id/Registration_password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password "
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:layout_below="@id/Registration_email"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:background="@drawable/edittexts_bg"
+            />
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:id="@+id/Registration_button"
+                android:text="Register"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/Registration_password"
+                android:background="@drawable/button_gradient"
+        />
+
+
+    </RelativeLayout>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Already registered? Login here"
+              android:textSize="16dp"
+              android:id="@+id/Gotologin"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true"
+              android:textColor="#fff"
+              android:layout_marginBottom="32dp"
+    />
+</RelativeLayout>
